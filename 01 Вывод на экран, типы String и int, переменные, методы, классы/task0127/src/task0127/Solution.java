@@ -17,7 +17,9 @@ Requirements:
 
 public class Solution {
     public static void main(String[] args) {
-        //напишите тут ваш код
+        int a= 5;
+        int c = sqr(a);
+        System.out.println(c);//напишите тут ваш код
     }
 
     public static int sqr(int a) {

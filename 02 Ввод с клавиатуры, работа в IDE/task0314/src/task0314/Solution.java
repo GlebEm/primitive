@@ -18,7 +18,11 @@ Requirements:
 
 public class Solution {
     public static void main(String[] args) {
-        //напишите тут ваш код
-
+       int a =10; int b =10;
+       for(int j=1;j<=a;j++) {
+           for (int i = 1; i <= b; i++) {
+               System.out.print(i*j+((i<b)?" ":"\n"));
+           }
+       }
     }
 }

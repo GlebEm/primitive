@@ -17,7 +17,14 @@ Requirements:
 
 public class Solution {
     public static void main(String[] args) throws Exception {
-        //напишите тут ваш код
-
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        double max = 0;
+        for (int i = 0; i < 4; i++) {
+            double n = Double.parseDouble(reader.readLine());
+            if (max < n) {
+                max = n;
+            }
+        }
+        System.out.println(max);
     }
 }

@@ -1,6 +1,6 @@
 package task0437;
 
-/* 
+/*
 Треугольник из восьмерок
 Используя цикл for вывести на экран прямоугольный треугольник из восьмёрок со сторонами 10 и 10.
 
@@ -26,7 +26,13 @@ Requirements:
 
 public class Solution {
     public static void main(String[] args) {
-        //напишите тут ваш код
+        int n = 10;
+        for (int i = 0; i <= n; i++) {
+            for (int j = 0; j < i; j++) {
+                System.out.print("8");
+            }
+            System.out.println();
+        }
 
     }
 }

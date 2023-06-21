@@ -25,6 +25,7 @@ public class Solution {
     }
 
     public static long getVolume(int a, int b, int c) {
-        //напишите тут ваш код
+       long volume = a*b*c*1000; // надеемся что бассейн параллелепипед
+       return volume;
     }
 }
